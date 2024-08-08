@@ -1,0 +1,51 @@
+.main {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    .hero {        
+        display: flex;
+        justify-content: center;
+        border: 1px solid #000;
+        width: 60%;
+        background-color: #e5e5e5;
+
+        .section-text .section-description, .section-button{
+            padding: 50px 0px 0px 50px;
+        }
+
+        .section-text {
+            display: flex;
+            flex-flow: column;
+            width: 40%;
+        }
+
+        .section-image {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            width: 60%;
+        }
+
+        .section-text .section-button button{
+            background-color: #f26a8d;
+            border: 1px solid #000;
+            font-weight: bold;           
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .section-text .section-description p{
+            color: #f26a8d;
+        }
+
+        .section-image img{
+            width: 350px;
+            height: 350px;
+        }
+
+    }
+
+}

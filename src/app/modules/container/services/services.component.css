@@ -1,0 +1,28 @@
+.main-services {
+    
+    text-align: center;
+    margin: 30px 0px;
+    
+    h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .services {
+        display: flex;
+        justify-content: space-evenly;
+
+        h2 {
+            color: #f26a8d;
+        }
+    
+        .service-1 img,
+        .service-2 img,
+        .service-3 img{
+            width: 100px;
+            height: 100px;
+        }
+    
+    }
+
+}

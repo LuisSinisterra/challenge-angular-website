@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nav .logo a {
+        text-decoration: none;
+        color: #ffafcc;
+    }
+
+    .nav {
+        display: flex;
+        width: 85%;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+
+    .nav .options .navegation {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        
+        a {
+            text-decoration: none;
+            margin-left: 20px;
+            color: #000;
+        }
+
+        a:hover {
+            color: #4361ee;
+            transition: 0.5s;
+        } 
+
+    }
+
+    .nav .options .search {
+        margin-top: 10px;
+
+        form {
+            display: flex;
+            justify-content: end;
+
+            ::placeholder {
+                padding-left: 10px;
+            }
+        
+            i{
+                margin-left: 20px;
+            } 
+            
+            input {
+                border-radius: 4px;
+                border: 1px solid #000;
+                width: 340px;
+            }
+
+            input:focus {
+                outline: none;
+            }
+            
+        }
+
+        .nav .options .search form .icons i{
+            font-size: 30px;
+        }
+
+    }
+
+    .nav .options .header-down {
+        margin-top: 30px;
+    }
+
+    .nav .options .header-down .down {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+
+        li .shop-link {
+            color: #ffafcc;
+        }
+
+        li a {
+            color: black;
+            margin-left: 80px;
+            text-decoration: none;
+            font-weight: bold;           
+        }
+
+        li a:hover {
+            color: #ffafcc;
+            transition: 0.5s;
+        }
+
+    }
+
+
+}

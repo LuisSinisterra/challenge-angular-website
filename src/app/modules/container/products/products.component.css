@@ -1,0 +1,57 @@
+.main-products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+   
+    h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 60%;
+
+        .card {
+            width: 220px;
+            height: 350px;
+            border: 1px solid #000;
+            margin: 20px 20px 0px 20px;
+        }
+
+        .card img {
+            width: 180px;
+            height: 180px;
+        }
+
+        .card button {
+            background-color: #f26a8d;
+            border: 1px solid #000;
+            font-weight: bold;           
+            color: #fff;
+            padding: 5px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .card .slap-2 p{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;            
+        }
+
+        .card .slap-1,
+        .slap-2,
+        .slap-3,
+        .slap-4 {
+            margin: 15px 0px;
+        }
+
+    }
+
+}
